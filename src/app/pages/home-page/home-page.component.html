@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Bem-Vindo ao TaskFlow!</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding ion-text-center">
+  <div class="welcome-container">
+    <h1>Olá!</h1>
+    <p>Este é o seu aplicativo de gerenciamento de tarefas, alimentado por Ionic e Firebase.</p>
+
+    <ion-button expand="block" (click)="goToTaskList()" color="primary">
+      <ion-icon name="checkbox-outline" slot="start"></ion-icon>
+      Minhas Tarefas (Firestore)
+    </ion-button>
+    <ion-button expand="block" fill="clear" (click)="goToAboutPage()" color="medium">
+      Sobre o App
+      <ion-icon name="information-circle-outline" slot="end"></ion-icon>
+    </ion-button>
+
+    <ion-item-divider class="ion-margin-top ion-margin-bottom">
+      <ion-label color="medium">
+        -- Demonstração da Prova --
+      </ion-label>
+    </ion-item-divider>
+
+    <ion-button expand="block" (click)="goToListarContatos()" color="secondary" class="ion-margin-top">
+      <ion-icon name="list-outline" slot="start"></ion-icon>
+      Etapa 3: Listar Contatos (API REST)
+    </ion-button>
+    <ion-button expand="block" (click)="goToAdicionarContato()" color="tertiary" class="ion-margin-top">
+      <ion-icon name="add-circle-outline" slot="start"></ion-icon>
+      Etapa 4: Adicionar Contato (Firebase)
+    </ion-button>
+    
+  </div>
+</ion-content>

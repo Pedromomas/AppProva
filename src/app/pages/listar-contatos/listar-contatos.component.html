@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home-page"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Contatos (API REST)</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <app-contato-item *ngFor="let user of users" [user]="user"></app-contato-item>
+  </ion-list>
+</ion-content>
