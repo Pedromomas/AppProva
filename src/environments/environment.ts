@@ -1,11 +1,16 @@
+// src/environments/environment.ts
+
 export const environment = {
   production: false,
-  firebaseConfig: { // <-- COLE O OBJETO AQUI DENTRO
-    apiKey: "AIzaSyBl...rX74",
-    authDomain: "meu-app-tarefas-9bdbe.firebaseapp.com",
-    projectId: "meu-app-tarefas-9bdbe",
-    storageBucket: "meu-app-tarefas-9bdbe.appspot.com",
-    messagingSenderId: "541410130983",
-    appId: "1:541410130983:web:baf234a683717558b06202"
+
+  // COLE O OBJETO AQUI
+  firebaseConfig: {
+    apiKey: "AIzaSyASrKE3L6FkVMXlAScrDfEYUN_vU3zmilU",
+    authDomain: "prova-contatos-pedro.firebaseapp.com",
+    projectId: "prova-contatos-pedro",
+    storageBucket: "prova-contatos-pedro.firebasestorage.app",
+    messagingSenderId: "437514955027",
+    appId: "1:437514955027:web:495ee1ae5db0227a71d2e6",
+    measurementId: "G-0C19NF74YK"
   }
 };
